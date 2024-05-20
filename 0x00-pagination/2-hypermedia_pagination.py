@@ -40,7 +40,7 @@ class Server:
         return self.__dataset
 
     def get_page(self, page: int = 1, page_size: int = 10) -> List[List]:
-        """function get_page that takes two integer arguments 
+        """function get_page that takes two integer arguments
 
         Args:
             page (int): page with Defaults to 1
