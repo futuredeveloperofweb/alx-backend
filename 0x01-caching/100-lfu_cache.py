@@ -14,7 +14,7 @@ class LFUCache(BaseCaching):
         self.keys_freq = []
 
     def __reorder_items(self, mru_key):
-        """a mothode that reorders items in the cache based on the 
+        """a mothode that reorders items in the cache based on the
         recently used item"""
         max_positions = []
         mru_freq = 0
